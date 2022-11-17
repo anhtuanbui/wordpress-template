@@ -1,15 +1,9 @@
 /*
-  Theme Name: Brad&rsquo;s Boilerplate Theme
-  Author: Brad
-  Author URI: https://github.com/LearnWebCode
+  Theme Name: Mythe
+  Author: Anh Tuan Bui
+  Author URI: https://github.com/anhtuanbui/wordpress-template
 */
 
 /* This file only exists for the sake of WordPress recognizing our theme / theme name etc... */
 
 /* We do not include CSS here and also WordPress will not load this file on the front-end */
-
-html, body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, blockquote, pre, form, fieldset, legend, input, textarea, th, td, hr, figure, figcaption, details, summary, menu, main {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}

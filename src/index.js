@@ -2,6 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './components/Home';
 
-import './shared/variables.scss';
+import './shared/mutual.scss';
 
-ReactDOM.render(<Home/>, document.querySelector("#render-react-example-here"))
+ReactDOM.render(<Home/>, document.getElementById("root"))

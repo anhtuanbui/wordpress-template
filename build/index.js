@@ -26,10 +26,10 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
 
 /***/ }),
 
-/***/ "./src/shared/variables.scss":
-/*!***********************************!*\
-  !*** ./src/shared/variables.scss ***!
-  \***********************************/
+/***/ "./src/shared/mutual.scss":
+/*!********************************!*\
+  !*** ./src/shared/mutual.scss ***!
+  \********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -150,13 +150,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "react-dom");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Home */ "./src/components/Home.jsx");
-/* harmony import */ var _shared_variables_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./shared/variables.scss */ "./src/shared/variables.scss");
+/* harmony import */ var _shared_mutual_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./shared/mutual.scss */ "./src/shared/mutual.scss");
 
 
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_2___default().render((0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_Home__WEBPACK_IMPORTED_MODULE_3__["default"], null), document.querySelector("#render-react-example-here"));
+react_dom__WEBPACK_IMPORTED_MODULE_2___default().render((0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_Home__WEBPACK_IMPORTED_MODULE_3__["default"], null), document.getElementById("root"));
 }();
 /******/ })()
 ;
