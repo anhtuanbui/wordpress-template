@@ -46,8 +46,9 @@ __webpack_require__.r(__webpack_exports__);
 
 class Home extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
   render() {
-    const data = fetch('http://paxform.local/wp-json');
-    console.log(data);
+    fetch('http://paxform.local/wp-json/wp/v2/users/1').then(response => response.json()).then(json => {
+      console.log(json);
+    });
     return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, "Home");
   }
 }
